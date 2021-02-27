@@ -2,7 +2,8 @@
 title: Kelly Merckaert
 email: kelly.merckaert@gmail.com
 url: https://kmerckae.github.io/
-description: "Welcome to the website of Kelly Merckaert" #"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+#"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Personal website of Kelly Merckaert, researcher in robotics and control engineering, hobby photographer, and piano player."
 keywords: "robotics, control, " #"your keywords, separated by commas"
 skills: "Robotics and Control Engineer" #"- xxx - yyy"
 meta_author: Merckaert Kelly
@@ -43,7 +44,7 @@ social:
     url: https://github.com/kmerckae
   - title: linkedin
     url: https://www.linkedin.com/in/kellymerckaert
-  - title: googlescholar
+  - title: graduation-cap
     url: https://scholar.google.be/citations?hl=en&user=Pf600mUAAAAJ
   - title: instagram
     url: https://www.instagram.com/kellymerckaert
