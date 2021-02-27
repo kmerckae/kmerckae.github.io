@@ -2,34 +2,10 @@
 title: Kelly Merckaert
 email: kelly.merckaert@gmail.com
 url: https://kmerckae.github.io/
-#"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-description: "Personal website of Kelly Merckaert, researcher in robotics and control engineering, hobby photographer, and piano player."
-keywords: "robotics, control, " #"your keywords, separated by commas"
-skills: "Robotics and Control Engineer" #"- xxx - yyy"
-meta_author: Merckaert Kelly
-
-# Google webmaster tools
-google_verify:
-
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
-contact: static
-
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+description: "Personal website of Kelly Merckaert, researcher in robotics and control engineering, hobbyist photographer, and piano player."
+keywords: "robotics, control, photography" #"your keywords, separated by commas"
+skills: "Robotic Control Systems Engineer - Hobbyist Photographer - Pianist"
+author: Kelly Merckaert
 
 # Footer settings
 footer:
@@ -48,14 +24,7 @@ social:
     url: https://scholar.google.be/citations?hl=en&user=Pf600mUAAAAJ
   - title: instagram
     url: https://www.instagram.com/kellymerckaert
-  # - title: twitter
-  #   url: http://twitter.com/jekyllrb
-  # - title: facebook
-  #   url:
-  # - title: stack-overflow
-  #   url: http://stackoverflow.com/questions/tagged/jekyll
-  # - title: bitbucket
-  #   url: http://bitbucket.org/jekyll
+
   
 
 # Postal address (add as many lines as necessary)
@@ -70,6 +39,8 @@ credits: 'Made with <a href="https://jekyllrb.com/">Jekyll for GitHub</a>. The d
 # Build settings
 markdown: kramdown
 permalink: pretty
+plugins:
+  - jekyll-feed
 
 #for posts
 defaults:
@@ -78,3 +49,11 @@ defaults:
       type: "posts"
     values:
       permalink: ""
+
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
